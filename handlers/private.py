@@ -14,7 +14,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Efsanestar_bot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
                 [
@@ -95,7 +95,7 @@ async def herkes(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Mahoaga")
+                         "⚙ Geliştirici", url="https://t.me/Memokra")
                  ],
                  [
                      InlineKeyboardButton(
@@ -113,7 +113,7 @@ async def admin(_, query: CallbackQuery):
              [
                  [
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Mahoaga")
+                         "⚙ Geliştirici", url="https://t.me/Memokra")
                  ],
                  [
                      InlineKeyboardButton(
@@ -131,12 +131,12 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/Efsanestar_bot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/Taliamusicasistant"
+                        "🔊 Asistan", url="https://t.me/BlackmusicAsistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Sohbet", url="https://t.me/Sohbetskyfall"
