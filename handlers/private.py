@@ -19,10 +19,10 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/Taliamusicasistant"
+                        "🔊 Asistan", url="https://t.me/blackmuzikasistan"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/Sohbetskyfall"
+                        "💬 Sohbet", url="https://t.me/Sohbetgaribanlartr"
                     )
                 ],
                 [
@@ -30,7 +30,7 @@ async def start(_, message: Message):
                         "🧩 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Sohbetdestek"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/blackmuzikbotu"
                     )
                 ]
                 
@@ -56,7 +56,7 @@ async def bilgi(_, message: Message):
                          "Ana menü🏠", callback_data="cbstart")
                  ],[
                      InlineKeyboardButton(
-                         "⚙ Geliştirici", url="https://t.me/Mahoaga")
+                         "⚙ Geliştirici", url="https://t.me/Memokra")
                  ]
              ]
          )
@@ -82,7 +82,7 @@ async def cbbilgi(_, query: CallbackQuery):
         ],
         [
           InlineKeyboardButton(
-            "⚙ Geliştirici", url="https://t.me/Mahoaga")
+            "⚙ Geliştirici", url="https://t.me/Memokra")
         ]
       ]
      ))
@@ -139,7 +139,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🔊 Asistan", url="https://t.me/BlackmusicAsistan"
                     ),
                     InlineKeyboardButton(
-                        "💬 Sohbet", url="https://t.me/Sohbetskyfall"
+                        "💬 Sohbet", url="https://t.me/Sohbetgaribanlartr"
                     )
                 ],
                 [
@@ -147,7 +147,7 @@ async def cbstart(_, query: CallbackQuery):
                         "🌀 Komutlar" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Resmi Kanal 🇹🇷", url=f"https://t.me/Sohbetdestek"
+                        "Resmi Kanal 🇹🇷", url=f"https://t.me/blackmuzikbotu"
                     )
                 ]
                 
